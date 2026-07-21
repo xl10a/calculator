@@ -1,0 +1,14 @@
+# my first calculator
+num1 = float (input("Enter first number: "))
+oprater = input("Enter your oprater")
+num2 = float (input("Enter second number: "))
+if oprater == "+":
+    print(num1+num2)
+elif oprater == "-":
+    print(num1-num2)
+elif oprater =="*":
+   print (num1*num2)
+elif oprater == "/":
+     print(num1/num2)
+elif oprater =="^":
+    print(num1**num2)
