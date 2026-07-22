@@ -1,13 +1,16 @@
-# calculator
-# Smart CLI Calculator
-
-A simple and interactive command-line calculator built with Python. 
-
-## Purpose
-Developed as a foundational project to master Python basics, including variables, conditional logic (`if/elif`), and user input handling.
-
-## Features
-* Supports basic arithmetic operations (+, -, *, /)
-* Supports exponentiation (^)
-* Clean and readable beginner-friendly logic
-* 
+# my first calculator
+num1 = float (input("Enter first number: "))
+oprater = input("Enter your oprater")
+num2 = float (input("Enter second number: "))
+if oprater == "+":
+    print(num1+num2)
+elif oprater == "-":
+    print(num1-num2)
+elif oprater =="*":
+   print (num1*num2)
+elif oprater == "/":
+     print(num1/num2)
+elif oprater =="^":
+    print(num1**num2)
+else:
+    print("error")
